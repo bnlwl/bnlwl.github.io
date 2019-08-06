@@ -22,10 +22,10 @@ export default () => {
       } else {
         setShow(false);
       }
-      if (scrollTop >= 5000) {
+      if (scrollTop >= 3000) {
         setLoad1(true);
       }
-      if (scrollTop >= 14000) {
+      if (scrollTop >= 8000) {
         setLoad2(true);
       }
     };
