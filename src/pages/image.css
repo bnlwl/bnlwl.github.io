@@ -1,0 +1,35 @@
+.image {
+  background: #f3f3f3;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.back {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  cursor: pointer;
+  border: 2px solid #cccccc;
+  padding: 5px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+}
+
+.back:hover {
+  -webkit-box-shadow: 0 0 4px 0 #cccccc;
+  -moz-box-shadow: 0 0 4px 0 #cccccc;
+  box-shadow: 0 0 4px 0 #cccccc;
+}
+
+.image > img {
+  width: 96%;
+}
+
+

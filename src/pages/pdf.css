@@ -1,0 +1,66 @@
+.pdf {
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: relative;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.loading {
+  display: flex;
+  align-items: center;
+}
+
+.pager {
+  position: absolute;
+  bottom: 1%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%);
+  width: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.previous, .next {
+  width: 90px;
+  height: 30px;
+  -webkit-border-radius: 5%;
+  -moz-border-radius: 5%;
+  border-radius: 5%;
+  border: 1px solid #ccc;
+  text-align: center;
+  line-height: 28px;
+  font-size: 16px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.previous:hover, .next:hover {
+  -webkit-box-shadow: 0 1px 5px #333;
+  -moz-box-shadow: 0 1px 5px #333;
+  box-shadow: 0 1px 5px #333;
+}
+
+.disabled {
+  color: #cccccc;
+  cursor: not-allowed;
+}
+
+.disabled:hover {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
