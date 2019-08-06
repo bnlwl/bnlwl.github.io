@@ -61,7 +61,7 @@ export default () => {
     <div className="pdf">
       {!pages && <span className="loading">Loading...</span>}
       <Pdf
-        scale={useElementSize(window).width / 960}
+        scale={(useElementSize(window).width - 200) / 960}
         file="./static/wl.pdf"
         onDocumentComplete={onDocumentComplete}
         page={page}

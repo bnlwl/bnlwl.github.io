@@ -30,6 +30,7 @@
 
 .image > img {
   width: 96%;
+  max-width: 1200px;
 }
 
 
