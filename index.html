@@ -5,68 +5,48 @@
   <meta name="viewport"
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>五子棋Demo</title>
+  <title>Bnlwl</title>
   <style>
     * {
       box-sizing: border-box;
+      margin: 0;
+      padding: 0;
     }
 
-    #board {
-      width: 450px;
-      height: 450px;
-      border-top: 1px solid black;
-      border-left: 1px solid black;
-      display: grid;
-      grid-template-columns: repeat(15, 1fr);
-      grid-template-rows: repeat(15, 1fr);
-      margin: 80px auto;
-    }
+    #root {
+      width: 100vw;
+      height: 100vh;
+      padding: 10px;
 
-    .cell {
-      width: 30px;
-      height: 30px;
-      transform: translate(-15px, -15px);
-      cursor: pointer;
-      position: relative;
-      text-align: center;
-      line-height: 30px;
-      font-size: 30px;
-      border-radius: 50%;
-    }
-
-    .cell::before {
-      content: "";
-      position: absolute;
-      width: 1px;
-      height: 100%;
-      background: black;
-      right: -15px;
-      top: 15px;
-    }
-
-    .cell::after {
-      content: "";
-      position: absolute;
-      width: 100%;
-      height: 1px;
-      background: black;
-      left: 15px;
-      top: 45px;
-    }
-
-    .blue {
-      background: blue;
-    }
-
-    .red {
-      background: red;
+      display: flex;
+      gap: 10px;
     }
   </style>
+  <script src="./components/card.js"></script>
 </head>
 <body>
-<h1>五子棋Demo</h1>
-<button onclick="resetGame()">重置</button>
-<div id="board"></div>
-<script src="script.js"></script>
+<div id="root">
+  <element-card id="wuziqi" name="五子棋" href="/wuziqi"></element-card>
+  <element-card id="icon" name="阿里ICON测试" href="/icon"></element-card>
+</div>
+<script>
+  function getSelector(selector) {
+    return document.querySelector(selector);
+  }
+
+  const jumpList = [
+    getSelector('#wuziqi'),
+    getSelector('#icon')
+  ]
+
+  jumpList.forEach(selector => {
+    selector.addEventListener('onClick', function (ev) {
+      const href = ev.detail.href;
+      const {origin} = window.location;
+      const url = origin + href;
+      window.open(url, url)
+    })
+  })
+</script>
 </body>
 </html>
