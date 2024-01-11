@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="70b3e327-b321-4a65-a70e-31dc9fdfa73d" name="更改" comment="feat: 改版">
+      <change afterPath="$PROJECT_DIR$/.eslintignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.eslintrc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLinters/eslint.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/dashboard/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/globals.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/_next/static/chunks/543-1dce904b018b8ad5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/_next/static/chunks/app/_not-found-c17f850572e5c684.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/_next/static/chunks/app/dashboard/page-2f7edad0bb38cdec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/_next/static/chunks/app/layout-c4bb10b1c6f341bf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/_next/static/chunks/app/page-1ba64fce1e18d586.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/_next/static/chunks/d16e89e2-b83affdc606a9d18.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/_next/static/chunks/framework-510ec8ffd65e1d01.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/_next/static/chunks/main-aaa70a8df29bb71a.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/_next/static/chunks/main-app-26eec2bb74fc4c72.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/_next/static/chunks/pages/_app-d982b13593126d50.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/_next/static/chunks/pages/_error-47e421f09a4637c1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/_next/static/chunks/webpack-7495954c70837de8.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/_next/static/css/08ed1708a0381578.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/_next/static/media/05a31a2ca4975f99-s.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/_next/static/media/513657b02c5c193f-s.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/_next/static/media/51ed15f9841b9f9d-s.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/_next/static/media/c9a5bc6a7c948fb0-s.p.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/_next/static/media/d6b16ce4a6175f26-s.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/_next/static/media/ec159349637c90ad-s.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/_next/static/media/fd4db3eb5472fc27-s.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/_next/static/zBVdPQmiRbgso9SQbKLaN/_buildManifest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/_next/static/zBVdPQmiRbgso9SQbKLaN/_ssgManifest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/dashboard.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/dashboard.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/index.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pnpm-lock.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/postcss.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tailwind.config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/card.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icon/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/icon/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuziqi/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wuziqi/index.js" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Srcb6GzNatvE8DaAqQ4hhWOVZK" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/Users/meng/Owner/GitHub/bnlwl.github.io",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "actions.on.save",
+    "ts.external.directory.path": "/Users/meng/Owner/GitHub/bnlwl.github.io/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/wuziqi" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="lint" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="lint" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.lint" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="70b3e327-b321-4a65-a70e-31dc9fdfa73d" name="更改" comment="" />
+      <created>1689908208435</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1689908208435</updated>
+      <workItem from="1689908209508" duration="1345000" />
+      <workItem from="1689918610106" duration="8838000" />
+      <workItem from="1692956724515" duration="2731000" />
+      <workItem from="1695096571083" duration="10938000" />
+      <workItem from="1704939346864" duration="5433000" />
+    </task>
+    <task id="LOCAL-00001" summary="feat: 顺儿">
+      <created>1689908279383</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1689908279383</updated>
+    </task>
+    <task id="LOCAL-00002" summary="feat: 顺儿">
+      <created>1689909756973</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1689909756973</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feat: 添加重置功能">
+      <created>1692959044711</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1692959044711</updated>
+    </task>
+    <task id="LOCAL-00004" summary="feat: 添加icon测试页面">
+      <created>1695096612276</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1695096612276</updated>
+    </task>
+    <task id="LOCAL-00005" summary="feat: 改版">
+      <created>1695279731134</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1695279731134</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: 顺儿" />
+    <MESSAGE value="feat: 添加重置功能" />
+    <MESSAGE value="feat: 添加icon测试页面" />
+    <MESSAGE value="feat: nextjs" />
+    <MESSAGE value="feat: 改版" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: 改版" />
+  </component>
+</project>
