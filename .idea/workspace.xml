@@ -6,20 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="70b3e327-b321-4a65-a70e-31dc9fdfa73d" name="更改" comment="feat: init">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/_next/static/88raYR5liwAzJB5kyTQOd/_buildManifest.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/_next/static/88raYR5liwAzJB5kyTQOd/_ssgManifest.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/_next/static/chunks/543-1dce904b018b8ad5.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/_next/static/chunks/app/layout-c4bb10b1c6f341bf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/_next/static/chunks/main-aaa70a8df29bb71a.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/_next/static/chunks/webpack-7495954c70837de8.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/_next/static/css/08ed1708a0381578.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/dashboard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/dashboard.txt" beforeDir="false" afterPath="$PROJECT_DIR$/docs/dashboard.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index.txt" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +80,7 @@
       <workItem from="1689918610106" duration="8838000" />
       <workItem from="1692956724515" duration="2731000" />
       <workItem from="1695096571083" duration="10938000" />
-      <workItem from="1704939346864" duration="6745000" />
+      <workItem from="1704939346864" duration="7638000" />
     </task>
     <task id="LOCAL-00001" summary="feat: 顺儿">
       <created>1689908279383</created>
@@ -151,7 +138,21 @@
       <option name="project" value="LOCAL" />
       <updated>1704946034716</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="feat: init">
+      <created>1704946334521</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1704946334521</updated>
+    </task>
+    <task id="LOCAL-00010" summary="feat: init">
+      <created>1704946446706</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1704946446706</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

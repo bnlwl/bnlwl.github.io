@@ -2,7 +2,6 @@
 const nextConfig = {
   distDir: 'docs',
   output: 'export',
-  basePath: '/docs'
 }
 
 module.exports = nextConfig
