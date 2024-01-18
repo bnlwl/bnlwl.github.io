@@ -10,7 +10,7 @@ const items = [UserOutlined, VideoCameraOutlined, UploadOutlined, UserOutlined].
   (icon, index) => ({
     key: String(index + 1),
     icon: React.createElement(icon),
-    label: `nav ${index + 1}`,
+    label: `nav ${index + 1}——msh`,
   }),
 );
 
