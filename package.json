@@ -2,15 +2,16 @@
   "name": "bnlwl.github.io",
   "version": "0.1.0",
   "private": true,
-  "homepage": "./",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "page": "gh-pages -d out"
+    "page": "sh page_shell.sh"
   },
   "dependencies": {
+    "@ant-design/icons": "^5.2.6",
+    "antd": "^5.12.8",
     "gh-pages": "^6.1.1",
     "next": "14.0.4",
     "react": "^18",
@@ -26,8 +27,5 @@
     "postcss": "^8",
     "tailwindcss": "^3.3.0",
     "typescript": "^5"
-  },
-  "eslintIgnore": [
-    "/docs"
-  ]
+  }
 }
