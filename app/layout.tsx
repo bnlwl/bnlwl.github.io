@@ -1,6 +1,7 @@
 import type {Metadata} from 'next'
 import {Inter} from 'next/font/google'
 import './globals.css'
+import Header from "@/app/Header";
 
 // 网站字体设置
 const inter = Inter({
@@ -21,7 +22,10 @@ interface Props {
 export default function RootLayout({children}: Props) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={`${inter.className} w-full h-screen flex flex-col`}>
+        <Header />
+        {children}
+      </body>
     </html>
   )
 }
