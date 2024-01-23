@@ -1,18 +1,6 @@
 'use client'
-
-import Link from 'next/link'
-import {HOME_ROUTE_PATH,DASHBOARD_ROUTE_PATH} from '@/app/constant/router'
-import Button from "@/app/components/Button";
-
-const HeaderLayout = () => {
-  return <div className="box-border py-4 px-8 flex items-center justify-start gap-8 relative">
-    <Link href={HOME_ROUTE_PATH}>
-      <Button>首页</Button>
-    </Link>
-    <Link href={DASHBOARD_ROUTE_PATH}>
-      <Button>777</Button>
-    </Link>
-  </div>
+const Header = () => {
+  return <div className="bg-[#c02c38] text-white box-border text-center py-2 px-4 font-bold shadow-2xl text-shadow-sm">中华人民共和国万岁，中国共产党万岁</div>
 }
 
-export default HeaderLayout
+export default Header
