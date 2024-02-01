@@ -2,6 +2,7 @@ import type {Metadata} from 'next'
 import {Inter} from 'next/font/google'
 import './globals.css'
 import Header from "@/app/Header";
+import {ReactNode} from "react";
 
 // 网站字体设置
 const inter = Inter({
@@ -16,14 +17,14 @@ export const metadata: Metadata = {
 }
 
 interface Props {
-    children: React.ReactNode
+    children: ReactNode
 }
 
 export default function RootLayout({children}: Props) {
   return (
     <html lang="en">
       <body className={`${inter.className} w-full flex flex-col h-screen`}>
-        <Header />
+        <Header/>
         <div className="flex-grow">{children}</div>
       </body>
     </html>
