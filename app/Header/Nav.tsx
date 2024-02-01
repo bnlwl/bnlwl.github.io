@@ -15,7 +15,7 @@ interface NavType {
 
 const navList: NavType[] = [
   {
-    name: '词',
+    name: '诗词',
     link: '/',
     type: 'home'
   },
