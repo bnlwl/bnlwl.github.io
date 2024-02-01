@@ -22,9 +22,9 @@ interface Props {
 export default function RootLayout({children}: Props) {
   return (
     <html lang="en">
-      <body className={`${inter.className} w-full h-screen flex flex-col`}>
+      <body className={`${inter.className} w-full flex flex-col h-screen`}>
         <Header />
-        {children}
+        <div className="flex-grow">{children}</div>
       </body>
     </html>
   )
