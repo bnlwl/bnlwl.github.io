@@ -2,6 +2,7 @@
 
 import React, {useMemo, useState} from "react";
 import {useRouter} from "next/navigation";
+import {DASHBOARD_ROUTE_PATH, HOME_ROUTE_PATH} from "@/app/constant/router";
 
 interface Props {
     className: string
@@ -16,12 +17,12 @@ interface NavType {
 const navList: NavType[] = [
   {
     name: '诗词',
-    link: '/',
+    link: HOME_ROUTE_PATH,
     type: 'home'
   },
   {
     name: '方块',
-    link: '/dashboard',
+    link: DASHBOARD_ROUTE_PATH,
     type: 'dashboard'
   }
 ]
